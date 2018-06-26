@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.main {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif; }
+
+.box {
+  background-color: #222;
+  width: 200px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px; }
+
+li {
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 150%;
+  text-align: center;
+  line-height: 150px; }
+
+.red {
+  background-color: #f00; }
+
+.yellow {
+  background-color: #fff000; }
+
+.green {
+  background-color: #0f0; }

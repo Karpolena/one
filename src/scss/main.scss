@@ -1,0 +1,50 @@
+$red: #f00;
+//.main {background-color: $red}
+
+$yellow: #fff000;
+$green: #0f0;
+$main-background: #ccc;
+$box-background: #222;
+$font-main: sans-serif;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main {
+    background-color: $main-background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-main;
+}
+.box {
+    background-color: $box-background; 
+    width: 200px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;}
+
+    li {
+        text-decoration: none;
+        display: block;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 150px;
+    }
+
+.red {
+      background-color:  $red;
+    }
+.yellow {
+      background-color:  $yellow;
+    }
+.green {
+       background-color: $green;
+    }
